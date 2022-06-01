@@ -9,4 +9,4 @@
   - 3 currencies available - UAH, USD and EUR
 
 
-[DEMO](https://vladskoromnyi.github.io/angular-currency-converter/)
+[DEMO](https://vladskoromnyi.github.io/angular-currency-converter)

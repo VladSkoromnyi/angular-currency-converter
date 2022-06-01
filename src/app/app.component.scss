@@ -1,0 +1,51 @@
+.Header {
+  margin: 50px;
+  padding: 20px;
+  border-bottom: 1px solid #dadada;
+
+  &__list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  }
+}
+
+.Converter {
+  margin: 50px 100px;
+
+  &__input {
+    outline: none;
+    border: 1px solid #dadada;
+    padding: 10px;
+    margin-right: 20px;
+    border-radius: 5px;
+    font-size: 16px;
+
+    transition: box-shadow, transform, 300ms ease;
+
+    &:focus {
+      box-shadow: 1px 0 20px 2px rgb(129, 180, 255);
+      transform: scale(1.1);
+      border-color: #fff;
+    }
+  }
+}
+
+.circle-one {
+  border: 1px solid #dadada;
+  border-radius: 50%;
+  padding: 10px;
+  color: #30a521;
+}
+
+.current-currency {
+  font-weight: 600;
+  color: #30a521;
+  margin: 0 5px;
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+}
